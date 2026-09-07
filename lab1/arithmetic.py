@@ -1,0 +1,15 @@
+"""Lab 1: perform arithmetic on two numbers."""
+
+first_number = float(input("Enter the first number: "))
+second_number = float(input("Enter the second number: "))
+
+print(f"Sum: {first_number + second_number}")
+print(f"Difference: {first_number - second_number}")
+print(f"Product: {first_number * second_number}")
+
+if second_number == 0:
+    print("Quotient: undefined (cannot divide by zero)")
+    print("Remainder: undefined (cannot divide by zero)")
+else:
+    print(f"Quotient: {first_number / second_number}")
+    print(f"Remainder: {first_number % second_number}")

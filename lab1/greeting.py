@@ -1,0 +1,7 @@
+"""Lab 1: greet a user using information they enter."""
+
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+city = input("Enter your city: ")
+
+print(f"Hello {name}! You are {age} years old and live in {city}.")
